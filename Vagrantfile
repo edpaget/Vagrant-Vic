@@ -11,6 +11,7 @@ apt-get update
 apt-get install -y python-pip python-dev build-essential libatlas-base-dev gfortran python-numpy mongodb-org git-core
 mongorestore --db asteroid --drop /vagrant/asteroid_zoo_data
 pip install git+https://#{GH_USER}:#{GH_PASSWORD}@github.com/edpaget/vic.git
+setup-db.py
 BASH
 
 
