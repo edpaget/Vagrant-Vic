@@ -10,7 +10,7 @@ A Vagrant + Virtual Box system for provisioning a VM to run the Asteroid Zoo red
 ### Usage
 Set the `GH_USER` and `GH_PASS` variables corresponding to your Github Username and Password by editing the Vagrantfile.
 
-* `git clone https://github.com/edpaget/vagrant-asteroid`
+* `git clone https://github.com/edpaget/Vagrant-Vic`
 * `cd vagrant-asteroid`
 * Add the Asteroid Zoo database dump in a folder called "asteroid_zoo_data"
 * `vagrant up`
